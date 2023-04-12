@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603397324730",
+    "project_id": "closet-851a3",
+    "storage_bucket": "closet-851a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603397324730:android:35518db1a4c938c2732783",
+        "android_client_info": {
+          "package_name": "com.example.personalcloset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603397324730-o8i9tm1k2eptctahrafis9j81m0unm1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYboppQWRnx_kICUoiKLFzqa5SLfA9Euk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603397324730-o8i9tm1k2eptctahrafis9j81m0unm1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
