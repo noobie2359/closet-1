@@ -1,4 +1,4 @@
-// tabs/tab_home.dart
+// tabs/tab_search.dart
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -6,7 +6,7 @@ class TabHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("home Tab"),
+      child: Text("Home Tab"),
     );
   }
 }

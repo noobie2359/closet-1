@@ -2,6 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:personalcloset/tabs/tab_closet.dart';
 import 'package:personalcloset/tabs/tab_home.dart';
 import 'package:personalcloset/tabs/tab_mypage.dart';
 import 'package:personalcloset/tabs/tab_search.dart';
@@ -17,9 +18,11 @@ class _IndexScreenState extends State<IndexScreen> {
   int _currentIndex = 0;
 
   final List<Widget> tabs = [
-    TabMypage(),
     TabSearch(),
+    TabMypage(),
     TabHome(),
+    ItemList(),
+    //ItemList(),
   ];
 
   @override
@@ -41,7 +44,8 @@ class _IndexScreenState extends State<IndexScreen> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'search'),
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'profile'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Mypage'),
+          BottomNavigationBarItem(icon: Icon(Icons.checkroom), label: 'Closet'),
         ],
       ),
       body: tabs[_currentIndex],
